@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container h-100">
-    <form class="text-center border border-light p-5" action="#!">
+    <form class="text-center border border-light p-5" action="http://127.0.0.1:5000/prediction" target="res">
 
       <p class="display-4 text-center py-3 mt-4">Credit Card Fraud Detection</p>
 
@@ -20,52 +20,52 @@
       <div class="form-row">
       <!-- Input -->
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="V1">
+          <input type="number" class="form-control" name = "V1" id="formGroupExampleInput2" placeholder="V1">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V2">
+          <input type="number" class="form-control" name = "V2" id="formGroupExampleInput2" placeholder="V2">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V3">
+          <input type="number" class="form-control" name = "V3" id="formGroupExampleInput2" placeholder="V3">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V4">
+          <input type="number" class="form-control" name = "V4" id="formGroupExampleInput2" placeholder="V4">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V5">
+          <input type="number" class="form-control" name = "V5" id="formGroupExampleInput2" placeholder="V5">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V6">
+          <input type="number" class="form-control" name = "V6" id="formGroupExampleInput2" placeholder="V6">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V7">
+          <input type="number" class="form-control" name = "V7" id="formGroupExampleInput2" placeholder="V7">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V9">
+          <input type="number" class="form-control" name = "V9" id="formGroupExampleInput2" placeholder="V9">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V10">
+          <input type="number" class="form-control" name = "V10" id="formGroupExampleInput2" placeholder="V10">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V11">
+          <input type="number" class="form-control" name = "V11" id="formGroupExampleInput2" placeholder="V11">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V12">
+          <input type="number" class="form-control" name = "V12" id="formGroupExampleInput2" placeholder="V12">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V14">
+          <input type="number" class="form-control" name = "V14" id="formGroupExampleInput2" placeholder="V14">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V16">
+          <input type="number" class="form-control" name = "V16" id="formGroupExampleInput2" placeholder="V16">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V17">
+          <input type="number" class="form-control" name = "V17" id="formGroupExampleInput2" placeholder="V17">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V18">
+          <input type="number" class="form-control" name = "V18" id="formGroupExampleInput2" placeholder="V18">
         </div>
         <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="V19">
+          <input type="number" class="form-control" name = "V19" id="formGroupExampleInput2" placeholder="V19">
         </div>
       
       
@@ -76,7 +76,7 @@
 
 
     </form>
-
+    <iframe id="res" name="res"></iframe>
     <!-- Home button -->
     <div class="align-self-end ml-auto">
       <button type="button" class="btn btn-dark btn-lg btn-block mt-3">
